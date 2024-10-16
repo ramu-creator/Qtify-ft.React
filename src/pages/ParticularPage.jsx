@@ -62,11 +62,11 @@ const ParticularPage = () => {
                   {/* Pagination Controls */}
                   <div className="pagination">
                       <button id='pg-btn' onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
-                      <i className="fa-solid fa-chevron-left"></i>
+                      ＜
                       </button>
                       <span>Page {currentPage} of {Math.ceil(songCount / itemsPerPage)}</span>
                       <button id='pg-btn' onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === Math.ceil(songCount / itemsPerPage)}>
-                      <i className="fa-solid fa-chevron-right"></i>
+                      ＞
                       </button>
                     </div>
                 <div className="table-container">

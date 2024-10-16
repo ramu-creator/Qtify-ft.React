@@ -67,7 +67,7 @@ const Body = () => {
           placeholder='Search a album of your choice'
           value={search}
           onChange={(event)=>setSearch(event.target.value)}
-          /><input id='search-icon' type="text"/><i className="fa-solid fa-magnifying-glass"></i>
+          />
       </div>
       <div id='carousel-content'>
         <h2 id='t-alb'>Top Albums</h2>

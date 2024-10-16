@@ -32,7 +32,7 @@
     /* border: solid 1px; */
     position: absolute;
     top: 20px;
-    left: 430px;
+    left: 470px;
 }
 #search{
     width: 350px;
@@ -40,21 +40,10 @@
     border: solid 0.5px;
     padding: 20px;
     font-size: 17px;
-    border-radius: 8px 0 0 8px;
+    border-radius:8px;
     /* border: none; */
 }
-#search-icon{
-    width: 50px;
-    height: 51px;
-    border-radius: 0 8px 8px 0;
-    /* border: none; */
 
-}
-.fa-magnifying-glass{
-    position: absolute;
-    left: 365px;
-    top: 20px;
-}
 #a3 button{
     width: 120px;
     height: 45px;
