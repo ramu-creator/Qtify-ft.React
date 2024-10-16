@@ -1,0 +1,292 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* nav Bar */
+
+#nav-container{
+    background-color: #00c966;
+    height: 90px;
+}
+#nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+#nav-menu li{
+    margin:20px 60px 0 60px;
+}
+
+/* search */
+
+#search-content{
+    display: inline-block;
+    width: 450px;
+    /* border: solid 1px; */
+    position: absolute;
+    top: 20px;
+    left: 430px;
+}
+#search{
+    width: 350px;
+    height: 50px;
+    border: solid 0.5px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 8px 0 0 8px;
+    /* border: none; */
+}
+#search-icon{
+    width: 50px;
+    height: 51px;
+    border-radius: 0 8px 8px 0;
+    /* border: none; */
+
+}
+i{
+    position: absolute;
+    left: 365px;
+    top: 20px;
+}
+#a3 button{
+    width: 120px;
+    height: 45px;
+    background-color: #000;
+    color: #00c966;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* Content */
+
+#content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #000;
+}
+#matter{
+    color: #fff;
+    font-size: 40px;
+}
+
+/* Body */
+#carousel-content{
+    background-color: #000;
+    height: 400px;
+}
+#div-height{
+    height: 100px;
+    background-color: #000;
+}
+#t-alb{
+    margin-left: 40px;
+    color: #fff;
+}
+#top-album{
+    height: 250px;
+    width: 150px;
+    /* border: solid 1px; */
+    margin: 10px;
+    margin-left: 50px;
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+}
+#top-imgs{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px 8px 8px 8px;
+}
+#top-follows{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 26px;
+    background-color: #00c966;
+    border-radius: 0px 0px 8px 8px;
+}
+#top-f{
+    /* border: solid 1px; */
+    width: 100px;
+    font-size: 13px;
+    margin:6px 0 0 10px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 9999px;
+    background-color: #000;
+}
+#top-title{
+    font-size: 18px;
+    color: #fff;
+}
+
+/* hr-line */
+#hr-div{
+    height: 100px;
+    background-color: #000;
+}
+#hr-line{
+    background-color:#00bb5f;
+    height: 2px;
+}
+/* song cards */
+#t-alb-s{
+    color: #00bb5f;
+    margin-left: 30px;
+}
+#song-nav{
+    /* border: solid white; */
+    height: 100px;
+}
+#s-nav-content{
+    display: flex;
+    color: #fff;
+    list-style: none;
+    gap: 50px;
+    margin-left: 50px;
+}
+#s-nav-conten,li{
+    cursor: pointer;
+}
+
+/* Particular Page */
+ 
+#inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 90px;
+    height: 500px;
+    background-color: #000;
+}
+#inn-image{
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    /* border: solid 1px; */
+}
+#inn-content{
+    width: 650px;
+    color: #fff;
+    /* border: solid 1px; */
+}
+#inn-h1{
+    font-size: 40px;
+    color: #fff;
+}
+#inn-p1{
+    font-size: 20px;
+}
+#span-container{
+    display: flex;
+    gap: 30px;
+}
+#inn-p2{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+#inn-bt{
+    font-size: 22px;
+    margin: 10px 0 0 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    color: #fff;
+    border:solid 1px #00bb5f;
+    background-color: #000;
+}
+
+/* Footer */
+
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color:#00bb5f    ;
+}
+#foo-info{
+    width: 40%;
+    margin:  0 0 0 35px;
+    color: #fff;
+
+}
+#foo-info,p{
+    font-size: 15px;
+}
+#foo-contact{
+    margin: 0 250px 0 0 ;
+    color: #fff;
+
+}
+#foo-li{
+    list-style: none;
+
+}
+
+
+
+
+/* Container for the table */
+.table-container {
+    background-color: #000;
+    padding: 20px;
+}
+
+/* Styling for the table */
+.styled-table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-top: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the table headers */
+.styled-table thead th {
+    background-color: #00bb5f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Styling for the table rows */
+.styled-table tbody td {
+    padding: 10px;
+    /* border-bottom: 1px solid #ddd; */
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Row hover effect */
+.styled-table tbody tr {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #00bb5f;
+}
+
+/* Styling for the images in the table */
+.song-image {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
